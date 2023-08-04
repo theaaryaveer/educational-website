@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/068ac085ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR CERTIFICATES & ONLINE PROGRAMS FOR 2023</h1>
+      
+    </section>
+    
+    <!-------------------BLOG PAGE CONTENT-------------------------------->
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="eduford_img/certificate.jpg" alt="">
+                <h2>OUR CERTIFICATES & ONLINE PROGRAMS FOR 2023</h2>
+                <p>Welcome to Eduford: Unlock Your Potential! <br> <br>
+
+                    At Eduford, we understand the power of advanced education in shaping your destiny. Explore new horizons <br> of knowledge, research, and expertise as you embrace the post-graduate journey. Together, let's <br> unleash your true potential and redefine the boundaries of success. <br> Welcome to a world of endless possibilities!</p>
+                     <br> <p>A knowledge oasis, our library offers an extensive collection of books, digital resources, and tranquil study spaces, fueling your intellectual growth</p>
+                     <p>Discover the academic excellence and vibrant campus life at our University. With a diverse <br> range of programs, distinguished faculty, and state-of-the-art facilities, we nurture <br> aspiring minds to become global leaders. Unleash your potential and shape your future at our University</p>
+                      <br> <p> The Eduford is a game-changer! It's like having a knowledgeable friend guiding you through <br> every subject, making learning engaging and effortless. The interactive lessons, <br> quizzes, and personalized study plans have boosted my confidence and improved <br> my grades. Plus, the platform's user-friendly design makes navigation a breeze. <br> It's truly the ultimate study companion!</p>
+                      <div class="comment-box">
+                        <h3>Leave A Comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="ENter Name">
+                            <input type="email" placeholder="ENter Email">
+                            <textarea  rows="5" placeholder="Leave a Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                        </form>
+                      </div>
+            </div>
+            <div class="blog-right">
+                <h3>POST CATEGORIES</h3>
+                <div>
+                    <span>Business Analytics</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Data Science</span>
+                    <span>28</span>
+                </div>
+                <div>
+                    <span>Machine Learning</span>
+                    <span>24</span>
+                </div>
+                <div>
+                    <span>Computer Science</span>
+                    <span>18</span>
+                </div>
+                <div>
+                    <span>AutoCAD</span>
+                    <span>21</span>
+                </div>
+                <div>
+                    <span>Journalism</span>
+                    <span>27</span>
+                </div>
+                <div>
+                    <span>Commerce</span>
+                    <span>29</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+   
+     
+    
+    <!-------------------FOOTER ---------------------------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Explore, Learn, and Excel - Eduford is your gateway to a world of knowledge, empowering  <br> your educational journeywith top-notch resources and a supportive community. <br> Join us on this transformative adventure towards a brighter future. </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa-solid fa-heart-pulse"></i> Yogesh Kumar Shah </p>
+</section>
+
+<!------------------JAVASCRIPT--------------------->
+
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>

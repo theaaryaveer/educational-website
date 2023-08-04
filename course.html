@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/068ac085ae.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png" ></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>OUR COURSES</h1>
+      
+    </section>
+        <!----------------------------------------COURSE---------------------------------->
+        <section class="course">
+            <h1>Courses We Offer</h1>
+            <p>Welcome. Let's navigate the boundless realm of education together!</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Intermediate</h3>
+                    <p>
+                        Welcome to YourPath Education: Empowering Your Learning Journey!
+                        
+                        At YourPath Education, we believe in <br> unlocking your potential and guiding you towards excellence. Join us as we embark on a transformative <br> educational adventure together. Let's take the next step towards a brighter future!</p>
+                </div>
+                <div class="course-col">
+                    <h3>Degree</h3>
+                    <p>Discover boundless opportunities for growth and achievement at BachelorPlus. We're here to empower your pursuit of <br> knowledge and pave the way for your successful future. Let's embark on this remarkable journey <br> together, where learning knows no limits. Welcome to a world of possibilities</p>
+                </div>
+                <div class="course-col">
+                    <h3>Post Graduation</h3>
+                    <p>At Eduford, we understand the power of advanced education in shaping your destiny. Explore new horizons of knowledge, research, and <br> expertise as you embrace the post-graduate journey. Together, let's unleash your true potential and redefine <br> the boundaries of success. Welcome to a world of endless possibilities!</p>
+                </div>
+            </div>
+        </section>
+          <!--------------------------------FACILITIES-------------------------------->
+
+        <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>Empowering minds with state-of-the-art facilities and resources for a holistic learning experience</p>
+            <div class="row">
+                <div class="facilities-col">
+                    <img src="eduford_img/library.png" alt="">
+                    <h3>World Class Library</h3>
+                    <p>A knowledge oasis, our library offers an extensive collection of books, digital resources, and tranquil study spaces, fueling your intellectual growth</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/basketball.png" alt="">
+                    <h3>Large Playgrounds</h3>
+                    <p>
+                        Our playground is a vibrant haven of fun and fitness, fostering active play and creating cherished memories for all.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="eduford_img/cafeteria.png" alt="">
+                    <h3>Healthy and quality food.</h3>
+                    <p>Indulge in a delectable culinary journey at our cafeteria, offering a delightful assortment of flavorful dishes to satisfy every palate.</p>
+                </div>
+            </div>
+        </section>
+
+    
+    <!-------------------FOOTER ---------------------------------->
+<section class="footer">
+    <h4>ABOUT US</h4>
+    <p>Explore, Learn, and Excel - Eduford is your gateway to a world of knowledge, empowering  <br> your educational journeywith top-notch resources and a supportive community. <br> Join us on this transformative adventure towards a brighter future. </p>
+    <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made With <i class="fa-solid fa-heart-pulse"></i> Yogesh Kumar Shah </p>
+</section>
+
+<!------------------JAVASCRIPT--------------------->
+
+    <script>
+        var navLinks =  document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
